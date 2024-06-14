@@ -1,0 +1,22 @@
+.slidetoggle-outer {
+	display:grid;
+	grid-template-rows:0fr;
+	overflow:hidden;
+	transition:grid-template-rows var(--SlideToggle-Speed-2) ease-in-out;
+}
+
+.slidetoggle-inner {
+	min-height:0;
+	visibility:hidden;
+	transition:visibility 0s var(--SlideToggle-Speed-2) ease-in-out;
+}
+
+.slidetoggle-content.active .slidetoggle-outer {
+	grid-template-rows:1fr;
+	transition:grid-template-rows var(--SlideToggle-Speed-1) ease-in-out;
+}
+
+.slidetoggle-content.active .slidetoggle-inner {
+	visibility:visible;
+	transition:visibility 0s 0s ease-in-out;
+}
