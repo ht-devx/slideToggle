@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[DEMO] slideToggle (@ht-devx)</title>
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/b00fee68465863c268372a663550cfcc/e94b8e8f6699419d-21/s128x128u_c1/cf70565652033104ab21b7291301c6313a16d649.pnj">
+</head>
+
+<body>
+
+<!----- 【 slideToggle: @ht-devx 】 ----->
+<link href="./slideToggle.css" rel="stylesheet">
+<script src="./slideToggle.js"></script>
+
+<!------------------------------------->
+
+<script>
+slideToggle({
+	trigger: ".button[data-id='1']",
+	content: ".content[data-id='1']"
+})
+
+slideToggle({
+	trigger: ".button[data-id='2']",
+	content: ".content[data-id='2']"
+})
+</script>
+
+<!------------------------------------->
+
+<style>
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+	--SlideToggle-Speed-1:500ms;
+	--SlideToggle-Speed-2:1s;
+}
+
+body {
+	margin:0;
+	font-family:"Instrument Sans", sans-serif;
+	font-size:0.9rem;
+	color:#5f646d;
+	line-height:1.6;
+}
+
+main {
+	position:fixed;
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.main-inner {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:clamp(25vw, 380px, 85vw);
+}
+
+button:not(:first-child){
+	margin-top:1rem;
+}
+
+button {
+	padding:0.65rem 0.8rem;
+	border-radius:4px;
+	font-family:"Poppins";
+	font-weight:500;
+	font-size:0.8rem;
+	text-transform:uppercase;
+	letter-spacing:0.015em;
+	outline:none;
+	color:#51555d;
+	line-height:1;
+	cursor:pointer;
+}
+
+button[data-id="1"]{
+	border:2px solid #a9be8e;
+	background:#c2d4aa;
+}
+
+button[data-id="2"]{
+	border:2px solid #b6a27c;
+	background:#d4c5aa;
+}
+
+.content:not(:first-child) .content-inner {
+	margin-top:1rem;
+}
+
+.content-inner {
+	padding:0.65rem 0.8rem;
+	border:1px solid #ecedef;
+	background:#f6f7f8;
+	border-radius:4px;
+	color:#6b6f7b;
+}
+</style>
+
+<!------------------------------------->
+
+<main>
+	<div class="main-inner">
+		<!---- BUTTON 1 ---->
+		<button class="button" data-id="1">
+			I'm button 1
+		</button>
+
+		<!---- CONTENT 1 ---->
+		<section class="content" data-id="1">
+			<div class="content-inner">
+				I'm the stuff that button 1 reveals!
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at posuere urna. Aenean id arcu eu ante vulputate lobortis id vitae massa. Cras posuere dolor at mi venenatis interdum.
+			</div>
+		</section>
+		
+		<!---- BUTTON 2 ---->
+		<button class="button" data-id="2">
+			I'm button 2
+		</button>
+
+		<!---- CONTENT 2 ---->
+		<section class="content" data-id="2">
+			<div class="content-inner">
+				I'm the stuff that button 2 reveals!
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum gravida tellus, a fringilla tortor venenatis nec. Maecenas fermentum nunc id malesuada viverra. Mauris tempor convallis varius. Nunc interdum nibh id sem porttitor, et egestas lorem fermentum. Sed accumsan luctus eleifend.
+			</div>
+		</section>
+	</div><!--main-inner-->
+
+</main>
+</body>
+</html>
