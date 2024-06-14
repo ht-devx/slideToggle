@@ -6,7 +6,7 @@ A plugin that replicates jQuery's `slideToggle()` function in pure JavaScript by
 **Demo code:** [jsfiddle.net/ht_dev/fua53ngr](https://jsfiddle.net/ht_dev/fua53ngr)\
 **Author:** HT ([@ ht-devx](https://github.com/ht-devx))\
 **Release date:** 2024-06-13\
-**Last updated:** 2024-03-13 8:28PM [GMT-7]
+**Last updated:** 2024-06-13 8:28PM [GMT-7]
 
 ---
 
