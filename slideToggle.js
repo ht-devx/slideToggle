@@ -50,17 +50,17 @@ window.slideToggle = function(params){
 						}
 					})
 					
-					content.classList.add("slidetoggle-content");
+					idContent.classList.add("slidetoggle-content");
 					
 					let outer = document.createElement("div");
 					outer.classList.add("slidetoggle-outer");
-					content.prepend(outer);
+					idContent.prepend(outer);
 					
 					let inner = document.createElement("div");
 					inner.classList.add("slidetoggle-inner");
 					outer.append(inner);
 					
-					content.querySelectorAll(":scope > *:not(.slidetoggle-outer)")?.forEach(e => {
+					idContent.querySelectorAll(":scope > *:not(.slidetoggle-outer)")?.forEach(e => {
 						inner.append(e)
 					})
 					
