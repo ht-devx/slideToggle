@@ -79,7 +79,7 @@ document.querySelectorAll(triggerName)?.forEach(btn => {
 ---
 
 #### Attribution:
-No visible credit/attribution is required, but please do not remove the credits situated within the JS file(s). A link to this repository would be appreciated.
+No visible credit/attribution is required, but please do not remove the existing credits in the code. A link to this repository would be appreciated.
 
 ---
 
