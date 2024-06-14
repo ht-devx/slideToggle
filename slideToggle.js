@@ -2,8 +2,8 @@
     
     jQuery's slideToggle in pure JS
     [#] Author: HT (@ht-devx)
-    [#] Version: 0.9.0
-    [#] Last updated: 2024-06-13 7:55PM [GMT-7]
+    [#] Version: 1.0.0
+    [#] Last updated: 2024-06-13 8:14PM [GMT-7]
     
     github.com/ht-devx/slideToggle
     
