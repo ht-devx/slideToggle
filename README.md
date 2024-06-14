@@ -2,11 +2,11 @@
 
 A plugin that replicates jQuery's `slideToggle()` function in pure JavaScript by utilizing CSS transitions with `grid-template-rows`.
 
-**Preview / Demo:** [ht-devx.github.io/slideToggle](ht-devx.github.io/slideToggle)\
+**Preview / Demo:** [ht-devx.github.io/slideToggle](https://ht-devx.github.io/slideToggle)\
 **Demo code:** [jsfiddle.net/ht_dev/fua53ngr](https://jsfiddle.net/ht_dev/fua53ngr)\
 **Author:** HT ([@ ht-devx](https://github.com/ht-devx))\
 **Release date:** 2024-06-13\
-**Last updated:** 2024-03-13 7:31PM [GMT-7]
+**Last updated:** 2024-03-13 8:28PM [GMT-7]
 
 ---
 
