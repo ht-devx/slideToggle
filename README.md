@@ -26,7 +26,7 @@ Include the following after `<head>`:
 ```html
 <!----- 【 slideToggle: @ht-devx 】 ----->
 <link href="https://ht-devx.github.io/slideToggle/slideToggle.css" rel="stylesheet">
-<script src="https://ht-devx.github.io/slideToggle/slideToggle.js"></script>
+<script src="https://ht-devx.github.io/slideToggle/slideToggle.min.js"></script>
 
 <script>
 slideToggle({
