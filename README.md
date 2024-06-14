@@ -40,6 +40,11 @@ slideToggle({
     --SlideToggle-Speed-1: 500ms;
     --SlideToggle-Speed-2: 1s;
 }
+
+/* in the next line, change .content to your content's selector */
+.content:not(.slidetoggle-content){
+    display:none;
+}
 </style>
 ```
 
@@ -47,6 +52,7 @@ What's happening in this example:
 - Clicking an element called `#your_button` will cause an element called `#your_content` to slide toggle.
 - On the 1st slide animation (revealing the content), it expands at the speed of `--SlideToggle-Speed-1`, which is set to `500ms`.
 - On the 2nd slide animation (hiding the content), it retracts at the speed of `--SlideToggle-Speed-2`, which is set to `1s`.
+- [optional] `.content:not(.slidetoggle-content)` with the CSS `display:none` hides content until the user interacts with it.
 
 ---
 
