@@ -62,8 +62,8 @@ If you have multiple contents you want to slide toggle, and want to auto-generat
 <button class="button" data-id="1">one's button</button>
 <div class="content" data-id="1">one's content</div>
 
-<button class="button" data-id="2">one's button</button>
-<div class="content" data-id="2">one's content</div>
+<button class="button" data-id="2">two's button</button>
+<div class="content" data-id="2">two's content</div>
 ```
 
 You can call the plugin like this:
